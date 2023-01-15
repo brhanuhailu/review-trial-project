@@ -129,9 +129,13 @@ button{
   padding:10px 0;
   margin-bottom:40px;
 }
-
-@media(max-width:800px){
+@media(min-width:576){
   #survey-form{
-    width:500px;
+    width: 540px;
+  }
+}
+@media(min-width:800px){
+  #survey-form{
+    width:720px;
   }
 }
