@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+  width:100%;
+  background-image:linear-gradient(117deg, rgba(58,58,136,0.8), rgba(136,136,206,0.6)),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  color:#fff;
+  font-family:'poppins', sans-serif;
+
+  margin-top:3rem;
+
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#title, #description{
+  text-align:center;
+  font-family:inherit;
+  
+}
+#title{
+  font-weight:450;
+  opacity:0.8;
+}
+#description{
+  font-weight:200;
+  font-style:italic;
+  opacity:0.65;
+  padding-bottom:30px;
+}
+#survey-form{
+  background:rgba(27, 27, 50, 0.8);
+  width:700px;
+  margin: 0 auto;
+  padding:20px 40px;
+  border-radius:5px;
+}
+#name-label,#name,#email-label,#email,#number-label,#number{
+  display:block;
+}
+#name-label,#email-label,#number-label{
+  font-size:18px;
+  font-family:inherit;
+  padding-top:20px;
+  padding-bottom:5px;
+}
+input{
+  margin:0;
+}
+input[type='radio'],input[type='checkbox']{
+  min-width:20px;
+  min-height:20px;
+}
+p{
+  font-size:18px;
+  opacity:0.9;
+  padding-bottom:5px;
+}
+#para{
+  font-size:18px;
+  font-family:inherit;
+  padding-top:5px;
+}
+#newp{
+  padding-top:10px;
+  padding-bottom: 1px;
+}
+input[type=text],input[type=number], input[type=email], #dropdown{
+  width:100%;
+  min-height:20px;
+  font-family:inherit;
+  padding:5px 15px;
+  border-radius:5px;
+  font-size:16px;
+}
+.dropdown{
+  margin:20px 0;
+}
+#dropdown{
+  color:gray;
+}
+.radiobox,.chkboxes{
+  display:flex;
+  align-items: center;
+}
+.radiobox:nth-of-type(3){
+  margin:10px 0;
+}
+.radiobox label,.chkboxes label{
+  margin-left:10px;
+}
+label{
+  font-size:18px;
+  opacity:0.9;
+}
+.chkboxes{
+  margin:10px 0;
+}
+.txtarea{
+  font-family:inherit;
+  
+  margin:40px 0;
+}
+textarea,button{
+  display:block;
+  width:100%;
+  font-family:inherit;
+  font-size:16px;
+  border-radius:2px;
+}
+textarea{
+  resize:verical;
+  padding:10px;
+}
+button{
+  background:#37af65;
+  color:#fff;
+  text-align:center;
+  font-size:18px;
+  border:none;
+  padding:10px 0;
+  margin-bottom:40px;
+}
+
+@media(max-width:800px){
+  #survey-form{
+    width:500px;
+  }
+}

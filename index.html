@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1></h1>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>Fork Me! FCC: Test Suite Template</title>
+        <link rel="stylesheet" href="css/style.css" />
+      </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form" action="" method="">
+      <label for="name" id="name-label">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+        required
+      />
+
+      <label for="email" id="email-label">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <label for="number" id="number-label">Age(optional)</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        min="1"
+        max="2"
+        placeholder="Age"
+      />
+      <div class="dropdown">
+        <p id="newp">Which option best describes your current role?</p>
+        <select id="dropdown">
+          <option selected disabled>Select current Role</option>
+          <option value="s">Student</option>
+          <option value="fj">Full Time Job</option>
+          <option value="fl">Full Time Learner</option>
+          <option value="pfno">Prefer not to say</option>
+          <option value="ot">Other</option>
+        </select>
+      </div>
+
+      <p id="para">Would you recommend freeCodeCamp to a friend?</p>
+      <div class="radiobox">
+        <input type="radio" name="radio" id="definite" value="d" checked/>
+        <label for="definite">Definitely</label>
+      </div>
+      
+      <div class="radiobox">
+        <input type="radio" name="radio" id="maybe" value="m" />
+        <label for="maybe">May Be</label>
+      </div>
+
+      <div class="radiobox">
+        <input type="radio" name="radio" id="notsure" value="n" />
+        <label for="notsure">Not Sure</label>
+      </div>
+
+      <div class="dropdown">
+        <p id="para">What is your favorite feature of freeCodeCamp?</p>
+        <select id="dropdown">
+          <option selected disabled>Select an option</option>
+          <option value="c">Challenges</option>
+          <option value="p">Projects</option>
+          <option value="cm">Community</option>
+          <option value="os">Open Source</option>
+        </select>
+      </div>
+
+      <div class="chkbox">
+        <p id="para">
+          What would you like to see improved? (Check all that apply)
+        </p>
+
+        <div class="chkboxes">
+          <input type="checkbox" name="checkbox" id="fepj" value="fepj" />
+          <label for="fepj">Front-end Projects</label>
+        </div>
+
+        <div class="chkboxes">
+          <input type="checkbox" name="checkbox" id="bepj" value="bepj" />
+          <label for="bepj">Back-end Projects</label>
+        </div>
+
+        <div class="chkboxes">
+          <input type="checkbox" name="checkbox" id="viual" value="chl" />
+          <label for="visual">Data Visualization</label>
+        </div>
+
+        <div class="chkboxes">
+          <input type="checkbox" name="checkbox" id="chl" value="chl" />
+          <label for="chl">Challenges</label>
+        </div>
+
+        <div class="chkboxes">
+          <input type="checkbox" name="checkbox" id="oscom" value="oscom" />
+          <label for="oscom">Open Source Community</label>
+        </div>
+
+        <div class="chkboxes">
+          <input type="checkbox" name="checkbox" id="gtroom" value="gtroom" />
+          <label for="gtroom">Gitter Help Rooms</label>
+        </div>
+
+        <div class="chkboxes">
+          <input type="checkbox" name="checkbox" id="vdo" value="vdo" />
+          <label for="vdo">Videos</label>
+        </div>
+
+        <div class="chkboxes">
+          <input type="checkbox" name="checkbox" id="city" value="city" />
+          <label for="city">City Meetups</label>
+        </div>
+
+        <div class="chkboxes">
+          <input type="checkbox" name="checkbox" id="wiki" value="wiki" />
+          <label for="wiki">Wiki</label>
+        </div>
+        
+        <div class="chkboxes">
+          <input type="checkbox" name="checkbox" id="forum" value="forum" />
+          <label for="forum">Forum</label>
+        </div>
+
+        <div class="chkboxes">
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="addcour"
+            value="addcour"
+          />
+          <label for="addcour">Additional Courses</label>
+        </div>
+      </div>
+
+      <div class="txtarea">
+        <p id="para">Any comments or suggestions?</p>
+      <textarea
+        rows="5"
+        placeholder="Enter your comment here..."
+      ></textarea>
+      </div>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+    Hello Camper!
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+    - The freeCodeCamp Team
+    -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
